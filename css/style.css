@@ -117,7 +117,6 @@ html {
   
   /* Global */
   body {
-    background-color: var(--primary-color);
     font-family: var(--font-family);
 
   }
@@ -137,4 +136,16 @@ html {
   /* Sections */
   
   /* Layouts */
+
+  /* Custom */
+  header ul {
+    display: flex;
+    border: 1px solid black;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+header ul li [
+    padding-right: 20px;
+]
   
